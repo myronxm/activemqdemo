@@ -19,7 +19,7 @@ public class JMSQueueProducerService {
 
         try {
 
-            //获取连接
+            //获取连接 conection
             connection = JMSActiveMQConfig.getConnection();
 
             //创建session
